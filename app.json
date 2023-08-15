@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "ai_trailblazers_z-ii",
+    "slug": "ai_trailblazers_z-ii",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "ai_trailblazers_z-ii"
+}
