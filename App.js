@@ -49,19 +49,6 @@ export default function App() {
             name="AvailableSpaceshipsScreen"
             component={AvailableSpaceshipsScreen}
           />
-          {/* <Stack.Screen
-            name="AvailableSpaceshipsScreen"
-            component={Spaceships}
-          /> */}
-          {/* <Stack.Screen name="ShipDetails" component={ShipDetails} />
-            <Stack.Screen name="ShipDetails2" component={ShipDetails2} />
-            <Stack.Screen name="ShipDetails3" component={ShipDetails3} />
-            <Stack.Screen name="ShipDetails4" component={ShipDetails4} />
-            <Stack.Screen name="ShipDetails5" component={ShipDetails5} />
-            <Stack.Screen name="ShipDetails6" component={ShipDetails6} />
-            <Stack.Screen name="ShipDetails7" component={ShipDetails7} />
-            <Stack.Screen name="ShipDetails8" component={ShipDetails8} />
-            <Stack.Screen name="DiscoverHome" component={DiscoverHome} /> */}
         </Stack.Navigator>
       </NavigationContainer>
     </Provider>
