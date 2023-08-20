@@ -29,7 +29,7 @@ const BookingScreen = () => {
   const [departureImage, setDepartureImage] = useState("");
   const [venueTo, setVenueTo] = useState("Jupiter");
   const [arrivalImage, setArrivalImage] = useState("");
-  const [adults, setAdults] = useState([""]);
+  const [adults, setAdults] = useState([]);
   const [children, setChildren] = useState([""]);
   const [departureDate, setDepartureDate] = useState("");
   const [arrivalDate, setArrivaleDate] = useState("");

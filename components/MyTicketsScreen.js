@@ -12,9 +12,9 @@ const MyTicketsScreen = () => {
   const ticketsCollectionRef = collection(firebaseDb, "tickets");
   const userDetails = useSelector((state) => state.user);
 
-  const [tickets, setTickets] = useState("");
+  const [tickets, setTickets] = useState([]);
 
-  const SID = "456";
+  const SID = userDetails.SID;
 
   function getElementsWithSID(data, targetSID) {
     const tick = data.filter((obj) => obj.SID === targetSID);
@@ -37,22 +37,31 @@ const MyTicketsScreen = () => {
       <View style={styles.container}>
         <Text style={styles.heading}>My Tickets</Text>
         <ScrollView horizontal>
-          {/* {tickets.map((object, index) => {
+          {tickets.map((object, index) => {
             return (
-              //   <TicketComponent
-              //     key={index}
-              //     planetDeparture={object.departurePlanet}
-              //     planetArrival={object.arrivalPlanet}
-              //     date={object.date}
-              //     time={object.time}
-              //     SID={SID}
-              //     spaceShip={"PRIME"}
-              //   />
+              <TicketComponent
+                key={index}
+                planetDeparture={object.departurePlanet}
+                planetArrival={object.arrivalPlanet}
+                date={object.date}
+                time={object.time}
+                SID={SID}
+                spaceShip={"PRIME"}
+              />
             );
-          })} */}
+          })}
         </ScrollView>
         <NavComponent />
       </View>
+      {/* <TicketComponent
+                key={index}
+                planetDeparture={object.departurePlanet}
+                planetArrival={object.arrivalPlanet}
+                date={object.date}
+                time={object.time}
+                SID={SID}
+                spaceShip={"PRIME"}
+              /> */}
     </BackgroundComponent>
   );
 };
