@@ -15,7 +15,6 @@ A brief description of your React Native project.
 
 Provide an overview of your project. What does it do? Why was it created? What problems does it solve?
 
-
 ## Getting Started
 
 ### Installation
@@ -38,4 +37,5 @@ For the best experience, download the Expo Go app on Android and scan the QR Cod
 # Run the app
 ```
 npx expo start
+npm start
 ```
