@@ -1,6 +1,6 @@
-# Project Name
+# Z-II
 
-A brief description of your React Native project.
+Solution for the Hackathon Phase of Tech-Triathlon 2023 by [Rootcode](https://tech-triathlon.rootcode.io)
 
 ## Table of Contents
 
